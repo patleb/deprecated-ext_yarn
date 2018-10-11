@@ -18,12 +18,12 @@ node_modules/bootstrap-sass/assets/**/*.min.js
 node_modules/bootstrap-sass/*.js
 node_modules/bootstrap-sass/*.md
 
-node_modules/bootswatch/**/*.css
-node_modules/bootswatch/**/*.less
-node_modules/bootswatch/**/*.png
-node_modules/bootswatch/fonts/*
-node_modules/bootswatch/.npmignore
-node_modules/bootswatch/README.md
+node_modules/bootswatch-sass/**/*.css
+node_modules/bootswatch-sass/**/*.less
+node_modules/bootswatch-sass/**/*.png
+node_modules/bootswatch-sass/fonts/*
+node_modules/bootswatch-sass/.npmignore
+node_modules/bootswatch-sass/README.md
 
 node_modules/chart.js/*
 !node_modules/chart.js/dist*

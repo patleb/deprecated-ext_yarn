@@ -18,6 +18,11 @@ node_modules/bootstrap-sass/assets/**/*.min.js
 node_modules/bootstrap-sass/*.js
 node_modules/bootstrap-sass/*.md
 
+node_modules/bootswatch/.github/*
+node_modules/bootswatch/**/*.css
+node_modules/bootswatch/*.gemspec
+node_modules/bootswatch/*.md
+
 node_modules/bootswatch-sass/**/*.css
 node_modules/bootswatch-sass/**/*.less
 node_modules/bootswatch-sass/**/*.png

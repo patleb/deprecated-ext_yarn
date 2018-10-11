@@ -3,19 +3,24 @@ log/*.log
 pkg/
 ext_yarn-*.gem
 Gemfile.lock
+*.log
 
 # KEEP_FILES_BEGIN
-node_modules/bootstrap/*
+node_modules/bootstrap/**/*.js.map
+node_modules/bootstrap/**/*.min.js
+node_modules/bootstrap/dist/css/*
+node_modules/bootstrap/js/src/*
+node_modules/bootstrap/*.md
 
 node_modules/bootstrap-sass/assets/fonts/*
 node_modules/bootstrap-sass/assets/images/*
-node_modules/bootstrap-sass/assets/*/*.min.js
+node_modules/bootstrap-sass/assets/**/*.min.js
 node_modules/bootstrap-sass/*.js
 node_modules/bootstrap-sass/*.md
 
-node_modules/bootswatch/*/*.css
-node_modules/bootswatch/*/*.less
-node_modules/bootswatch/*/*.png
+node_modules/bootswatch/**/*.css
+node_modules/bootswatch/**/*.less
+node_modules/bootswatch/**/*.png
 node_modules/bootswatch/fonts/*
 node_modules/bootswatch/.npmignore
 node_modules/bootswatch/README.md

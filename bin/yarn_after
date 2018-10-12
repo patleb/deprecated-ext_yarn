@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'pathname'
+
+files = `git status`.split("\n")
+  .map(&:strip)
+  .select{ |line| line.start_with? 'modified: '}
+  .map{ |line| line.delete_prefix 'modified:' }
+  .map(&:strip)
+  .select{ |line| line.start_with? 'vendor/' }
+  .map{ |file| Pathname.new(file) }
+files.each do |file|
+  content = file.read
+  file.write(content.encode(content.encoding, universal_newline: true))
+end

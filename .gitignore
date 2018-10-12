@@ -134,6 +134,14 @@ node_modules/nprogress/support/*.css
 !node_modules/nprogress/package.json
 !node_modules/nprogress/License.md
 
+node_modules/popper.js/**/*.min.js
+node_modules/popper.js/**/*.js.map
+node_modules/popper.js/**/*.ts
+node_modules/popper.js/**/*.js.flow
+node_modules/popper.js/dist/esm/*
+node_modules/popper.js/dist/*.js
+node_modules/popper.js/*.md
+
 node_modules/roboto-fontface/*
 !node_modules/roboto-fontface/css*
 node_modules/roboto-fontface/css/**/*.css

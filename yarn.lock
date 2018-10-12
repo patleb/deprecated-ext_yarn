@@ -145,6 +145,11 @@ nprogress@rstacruz/nprogress:
   version "0.2.0"
   resolved "https://codeload.github.com/rstacruz/nprogress/tar.gz/a0ab16ccdaca501d8d9881a4da1d691f4e6c4dda"
 
+popper.js@^1.14.4:
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6"
+  integrity sha1-juwdj/AqWjoVLdQ0FKFce3n9abY=
+
 roboto-fontface@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/roboto-fontface/-/roboto-fontface-0.8.0.tgz#031a83c8f79932801a57d83bf743f37250163499"

@@ -21,6 +21,7 @@
     "moment": "^2.19.1",
     "moment-timezone": "^0.5.14",
     "nprogress": "rstacruz/nprogress",
+    "popper.js": "^1.14.4",
     "roboto-fontface": "^0.8.0",
     "signature_pad": "^2.3.2"
   }

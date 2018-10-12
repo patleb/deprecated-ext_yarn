@@ -155,4 +155,11 @@ vendor/signature_pad/*
 vendor/signature_pad/dist/signature_pad.m*
 !vendor/signature_pad/dist/signature_pad.js
 !vendor/signature_pad/package.json
+
+vendor/tempusdominus-bootstrap-4/**/*.min.js
+vendor/tempusdominus-bootstrap-4/build/css/*
+vendor/tempusdominus-bootstrap-4/node_modules/*
+vendor/tempusdominus-bootstrap-4/src/js/*
+vendor/tempusdominus-bootstrap-4/Gruntfile.js
+vendor/tempusdominus-bootstrap-4/*.md
 # KEEP_FILES_END

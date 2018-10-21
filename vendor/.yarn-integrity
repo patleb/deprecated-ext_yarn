@@ -26,6 +26,7 @@
     "moment@^2.19.1",
     "nprogress@rstacruz/nprogress",
     "popper.js@^1.14.4",
+    "rails-ujs@^5.2.1",
     "roboto-fontface@^0.8.0",
     "signature_pad@^2.3.2",
     "tempusdominus-bootstrap-4@^5.1.2"
@@ -68,6 +69,7 @@
     "nprogress@rstacruz/nprogress": "https://codeload.github.com/rstacruz/nprogress/tar.gz/a0ab16ccdaca501d8d9881a4da1d691f4e6c4dda",
     "popper.js@^1.14.3": "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6",
     "popper.js@^1.14.4": "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6",
+    "rails-ujs@^5.2.1": "https://registry.yarnpkg.com/rails-ujs/-/rails-ujs-5.2.1.tgz#2869c6d54fdfefac3aaa257f4efe211d8f5a7169",
     "roboto-fontface@^0.8.0": "https://registry.yarnpkg.com/roboto-fontface/-/roboto-fontface-0.8.0.tgz#031a83c8f79932801a57d83bf743f37250163499",
     "signature_pad@^2.3.2": "https://registry.yarnpkg.com/signature_pad/-/signature_pad-2.3.2.tgz#ca7230021c89cedeead27b33d8d16ff254e5f04a",
     "tempusdominus-bootstrap-4@^5.1.2": "https://registry.yarnpkg.com/tempusdominus-bootstrap-4/-/tempusdominus-bootstrap-4-5.1.2.tgz#3c9906ca6e5d563faa0b81b2fdc6aa79cad9c0be"

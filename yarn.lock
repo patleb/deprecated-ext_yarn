@@ -167,6 +167,11 @@ popper.js@^1.14.3, popper.js@^1.14.4:
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6"
   integrity sha1-juwdj/AqWjoVLdQ0FKFce3n9abY=
 
+rails-ujs@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/rails-ujs/-/rails-ujs-5.2.1.tgz#2869c6d54fdfefac3aaa257f4efe211d8f5a7169"
+  integrity sha512-kOsSdmBATcilfMzBCYgbefQ+5eUG6BAr9rDy+GC09Cvqx0017XBVp1Xu/Ksvwr6r7fHzgNkEUpKnQoOflpNz+A==
+
 roboto-fontface@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/roboto-fontface/-/roboto-fontface-0.8.0.tgz#031a83c8f79932801a57d83bf743f37250163499"

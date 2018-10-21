@@ -142,6 +142,9 @@ vendor/popper.js/dist/esm/*
 vendor/popper.js/dist/*.js
 vendor/popper.js/*.md
 
+vendor/rails-ujs/*.md
+vendor/rails-ujs/README.rdoc
+
 vendor/roboto-fontface/*
 !vendor/roboto-fontface/css*
 vendor/roboto-fontface/css/**/*.css

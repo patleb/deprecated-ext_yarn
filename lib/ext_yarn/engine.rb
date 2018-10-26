@@ -1,14 +1,14 @@
 module ExtYarn
   class Engine < ::Rails::Engine
     initializer 'ext_yarn.assets.paths' do |app|
-      app.config.assets.paths << root.join('vendor')
-
-      %w(javascripts stylesheets).each do |type|
-        app.config.assets.paths << root.join('vendor/bootstrap-sass/assets', type)
-      end
-
-      %w(fonts stylesheets).each do |type|
-        app.config.assets.paths << root.join('vendor/font-awesome-sass/assets', type)
+      %w(
+        vendor
+        vendor/bootstrap-sass/assets/javascripts
+        vendor/bootstrap-sass/assets/stylesheets
+        vendor/font-awesome-sass/assets/fonts
+        vendor/font-awesome-sass/assets/stylesheets
+      ).each do |assets_dir|
+        app.config.assets.paths << root.join(assets_dir)
       end
     end
   end

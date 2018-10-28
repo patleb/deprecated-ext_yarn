@@ -8,7 +8,7 @@ module ExtYarn
         vendor/font-awesome-sass/assets/fonts
         vendor/font-awesome-sass/assets/stylesheets
       ).each do |assets_dir|
-        app.config.assets.paths << root.join(assets_dir)
+        app.config.assets.paths << root.join(assets_dir).to_s
       end
     end
   end

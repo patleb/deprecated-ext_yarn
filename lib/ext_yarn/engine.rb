@@ -1,6 +1,6 @@
 module ExtYarn
   class Engine < ::Rails::Engine
-    initializer 'ext_yarn.assets.paths' do |app|
+    initializer 'ext_yarn.append_assets_path' do |app|
       %w(
         vendor
         vendor/bootstrap-sass/assets/javascripts

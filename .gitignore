@@ -6,6 +6,11 @@ Gemfile.lock
 *.log
 
 # KEEP_FILES_BEGIN
+vendor/actioncable/*.md
+
+vendor/activestorage/src/*
+vendor/activestorage/*.md
+
 vendor/bootstrap/**/*.js.map
 vendor/bootstrap/**/*.min.js
 vendor/bootstrap/dist/css/*
@@ -158,6 +163,8 @@ vendor/signature_pad/*
 vendor/signature_pad/dist/signature_pad.m*
 !vendor/signature_pad/dist/signature_pad.js
 !vendor/signature_pad/package.json
+
+vendor/spark-md5/*
 
 vendor/tempusdominus-bootstrap-4/**/*.min.js
 vendor/tempusdominus-bootstrap-4/build/css/*

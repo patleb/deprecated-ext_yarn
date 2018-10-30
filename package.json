@@ -2,6 +2,8 @@
   "name": "ext_yarn",
   "private": true,
   "dependencies": {
+    "actioncable": "^5.2.1",
+    "activestorage": "^5.2.1",
     "bootstrap": "^4.1.3",
     "bootstrap-sass": "^3.3.7",
     "bootswatch": "^4.1.3",

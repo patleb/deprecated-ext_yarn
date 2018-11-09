@@ -94,6 +94,11 @@ vendor/jquery-ujs/*
 !vendor/jquery-ujs/package.json
 !vendor/jquery-ujs/MIT-LICENSE
 
+vendor/jquery.iframe-transport/*
+!vendor/jquery.iframe-transport/jquery.iframe-transport.js
+!vendor/jquery.iframe-transport/LICENSE
+!vendor/jquery.iframe-transport/package.json
+
 vendor/js-cookie/*
 !vendor/js-cookie/src*
 !vendor/js-cookie/src/js.cookie.js

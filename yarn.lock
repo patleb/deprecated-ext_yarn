@@ -106,8 +106,10 @@ jquery-ui@^1.12.1:
 jquery-ujs@rails/jquery-ujs:
   version "1.2.2"
   resolved "https://codeload.github.com/rails/jquery-ujs/tar.gz/9e805c90c8cfc57b39967052e1e9013ccb318cf8"
-  dependencies:
-    jquery ">=1.8.0"
+
+jquery.iframe-transport@cmlenz/jquery-iframe-transport:
+  version "1.0.0"
+  resolved "https://codeload.github.com/cmlenz/jquery-iframe-transport/tar.gz/f9a5446f5f8a9d7bc4659ea9c49349b1f585316b"
 
 jquery@>=1.8.0, jquery@^3.0:
   version "3.3.1"

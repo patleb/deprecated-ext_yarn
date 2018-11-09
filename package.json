@@ -17,6 +17,7 @@
     "jquery-pjax": "defunkt/jquery-pjax",
     "jquery-ui": "^1.12.1",
     "jquery-ujs": "rails/jquery-ujs",
+    "jquery.iframe-transport": "cmlenz/jquery-iframe-transport",
     "js-cookie": "^2.2.0",
     "jstz": "^2.0.0",
     "lodash": "^4.17.4",

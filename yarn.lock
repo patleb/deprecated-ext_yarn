@@ -111,15 +111,15 @@ jquery.iframe-transport@cmlenz/jquery-iframe-transport:
   version "1.0.0"
   resolved "https://codeload.github.com/cmlenz/jquery-iframe-transport/tar.gz/f9a5446f5f8a9d7bc4659ea9c49349b1f585316b"
 
-jquery@>=1.8.0, jquery@^3.0:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
-
 "jquery@^1.8.3 || ^2.0 || ^3.0", jquery@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
   integrity sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c=
+
+jquery@^3.0:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
 
 js-cookie@^2.2.0:
   version "2.2.0"
@@ -130,6 +130,11 @@ jstz@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/jstz/-/jstz-2.0.0.tgz#fd02f4ebdc7843c83e7ad1f157aecf46bf1f7647"
   integrity sha512-C686KzLJHe079zUwVDkCRkbq26w/vhznVEK1Ea4tiLfX3RvaXUxDFPy5whAe0Q/AhTtAmID0NPAadC/3ROU/DA==
+
+lazysizes@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.1.4.tgz#1b2974420252e6eab7a6a1e8c8bdcb177a72a06a"
+  integrity sha512-jVplgeHHoQ6a2RZtxCAKFAnm6QPQmEIKq4JWSTI1XfCBhn+CqDgMKWDJO81f8VtVBdAlHs+BzP2WGzMLUi3oFg==
 
 lodash@^4.17.4:
   version "4.17.4"

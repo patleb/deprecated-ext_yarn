@@ -112,6 +112,11 @@ vendor/jstz/dist/*.min.*
 !vendor/jstz/package.json
 !vendor/jstz/LICENCE
 
+vendor/lazysizes/**/*.min.*
+vendor/lazysizes/**/*.md
+vendor/lazysizes/*.xml
+vendor/lazysizes/src/*
+
 vendor/lodash/*
 !vendor/lodash/core.js
 !vendor/lodash/lodash.js

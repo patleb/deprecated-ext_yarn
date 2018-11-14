@@ -7,15 +7,128 @@ Gemfile.lock
 
 # KEEP_FILES_BEGIN
 vendor/**/node_modules/*
-
 vendor/.bin/*
+vendor/@babel/*
+vendor/ab*
+vendor/aco*
+vendor/aj*
+vendor/an*
+vendor/ap*
+vendor/ar*
+vendor/as*
+vendor/at*
+vendor/aw*
+vendor/ba*
+vendor/bc*
+vendor/br*
+vendor/bs*
+vendor/bu*
+vendor/ca*
+vendor/chalk/*
+vendor/chartjs*
+vendor/ci*
+vendor/cl*
+vendor/co*
+vendor/cr*
+vendor/cs*
+vendor/da*
+vendor/de*
+vendor/di*
+vendor/do*
+vendor/ec*
+vendor/er*
+vendor/es*
+vendor/ex*
+vendor/fa*
+vendor/fb*
+vendor/filen*
+vendor/files*
+vendor/fill*
+vendor/fin*
+vendor/for*
+vendor/fr*
+vendor/fs*
+vendor/fu*
+vendor/g*
+vendor/h*
+vendor/i*
+vendor/ja*
+vendor/je*
+vendor/js-*
+vendor/jsb*
+vendor/jsd*
+vendor/jse*
+vendor/jso*
+vendor/jsp*
+vendor/k*
+vendor/lc*
+vendor/le*
+vendor/loa*
+vendor/loc*
+vendor/lodash.sortby/*
+vendor/loo*
+vendor/lr*
+vendor/ma*
+vendor/me*
+vendor/mi*
+vendor/mk*
+vendor/ms*
+vendor/na*
+vendor/no*
+vendor/npm*
+vendor/nu*
+vendor/nw*
+vendor/o*
+vendor/p-*
+vendor/pa*
+vendor/pe*
+vendor/pi*
+vendor/pk*
+vendor/pn*
+vendor/pos*
+vendor/pr*
+vendor/ps*
+vendor/pu*
+vendor/q*
+vendor/ran*
+vendor/re*
+vendor/ri*
+vendor/rs*
+vendor/sa*
+vendor/se*
+vendor/sh*
+vendor/signal*
+vendor/sis*
+vendor/sl*
+vendor/sn*
+vendor/so*
+vendor/sp*
+vendor/ss*
+vendor/st*
+vendor/su*
+vendor/sy*
+vendor/tes*
+vendor/tes*
+vendor/th*
+vendor/tm*
+vendor/to*
+vendor/tr*
+vendor/tu*
+vendor/tw*
+vendor/ty*
+vendor/u*
+vendor/v*
+vendor/w*
+vendor/x*
+vendor/y*
 
 vendor/actioncable/*.md
 
 vendor/activestorage/src/*
 vendor/activestorage/*.md
 
-vendor/balanced-match/*
+vendor/bdd-lazy-var/*.md
+vendor/bdd-lazy-var/*.ts
 
 vendor/bootstrap/**/*.js.map
 vendor/bootstrap/**/*.min.js
@@ -41,10 +154,6 @@ vendor/bootswatch-sass/fonts/*
 vendor/bootswatch-sass/.npmignore
 vendor/bootswatch-sass/README.md
 
-vendor/brace-expansion/*
-
-vendor/browser-stdout/*
-
 vendor/chart.js/*
 !vendor/chart.js/dist*
 vendor/chart.js/dist/docs
@@ -53,23 +162,11 @@ vendor/chart.js/dist/*.min.js
 !vendor/chart.js/dist/Chart.js
 !vendor/chart.js/package.json
 !vendor/chart.js/LICENSE.md
-vendor/chartjs*
-vendor/color-*
 
 vendor/chartkick/*
 !vendor/chartkick/chartkick.js
 !vendor/chartkick/package.json
 !vendor/chartkick/LICENSE.txt
-
-vendor/commander/*
-
-vendor/concat-map/*
-
-vendor/debug/*
-
-vendor/diff/*
-
-vendor/escape-string-regexp/*
 
 vendor/eonasdan-bootstrap-datetimepicker/*
 !vendor/eonasdan-bootstrap-datetimepicker/src*
@@ -87,20 +184,6 @@ vendor/font-awesome-sass/*
 !vendor/font-awesome-sass/assets*
 !vendor/font-awesome-sass/LICENSE.txt
 !vendor/font-awesome-sass/package.json
-
-vendor/fs.realpath/*
-
-vendor/glob/*
-
-vendor/growl/*
-
-vendor/has-flag/*
-
-vendor/he/*
-
-vendor/inflight/*
-
-vendor/inherits/*
 
 vendor/jquery/*
 !vendor/jquery/dist*
@@ -157,12 +240,6 @@ vendor/lodash/*
 !vendor/lodash/package.json
 !vendor/lodash/LICENSE
 
-vendor/minimatch/*
-
-vendor/minimist/*
-
-vendor/mkdirp/*
-
 vendor/mocha/*
 !vendor/mocha/mocha.js
 !vendor/mocha/mocha.css
@@ -186,8 +263,6 @@ vendor/moment-timezone/builds/*.min.js
 !vendor/moment-timezone/package.json
 !vendor/moment-timezone/LICENSE
 
-vendor/ms/*
-
 vendor/nprogress/*
 !vendor/nprogress/support*
 vendor/nprogress/support/*.css
@@ -196,10 +271,6 @@ vendor/nprogress/support/*.css
 !vendor/nprogress/nprogress.js
 !vendor/nprogress/package.json
 !vendor/nprogress/License.md
-
-vendor/once/*
-
-vendor/path-is-absolute/*
 
 vendor/popper.js/**/*.min.js
 vendor/popper.js/**/*.js.map
@@ -226,16 +297,10 @@ vendor/signature_pad/dist/signature_pad.m*
 !vendor/signature_pad/dist/signature_pad.js
 !vendor/signature_pad/package.json
 
-vendor/spark-md5/*
-
-vendor/supports-color/*
-
 vendor/tempusdominus-bootstrap-4/**/*.min.js
 vendor/tempusdominus-bootstrap-4/build/css/*
 vendor/tempusdominus-bootstrap-4/node_modules/*
 vendor/tempusdominus-bootstrap-4/src/js/*
 vendor/tempusdominus-bootstrap-4/Gruntfile.js
 vendor/tempusdominus-bootstrap-4/*.md
-
-vendor/wrappy/*
 # KEEP_FILES_END

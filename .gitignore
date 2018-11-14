@@ -7,14 +7,12 @@ Gemfile.lock
 
 # KEEP_FILES_BEGIN
 vendor/**/node_modules/*
+vendor/**/.bin/*
 
 vendor/actioncable/*.md
 
 vendor/activestorage/src/*
 vendor/activestorage/*.md
-
-vendor/bdd-lazy-var/*.md
-vendor/bdd-lazy-var/*.ts
 
 vendor/bootstrap/**/*.js.map
 vendor/bootstrap/**/*.min.js
@@ -39,14 +37,6 @@ vendor/bootswatch-sass/**/*.png
 vendor/bootswatch-sass/fonts/*
 vendor/bootswatch-sass/.npmignore
 vendor/bootswatch-sass/README.md
-
-vendor/chai/*
-!vendor/chai/chai.js
-!vendor/chai/LICENSE
-
-vendor/chai-jq/*
-!vendor/chai-jq/chai-jq.js
-!vendor/chai-jq/LICENSE.txt
 
 vendor/chart.js/*
 !vendor/chart.js/dist*
@@ -134,12 +124,6 @@ vendor/lodash/*
 !vendor/lodash/package.json
 !vendor/lodash/LICENSE
 
-vendor/mocha/*
-!vendor/mocha/mocha.js
-!vendor/mocha/mocha.css
-!vendor/mocha/package.json
-!vendor/mocha/LICENSE
-
 vendor/moment/*
 !vendor/moment/locale*
 !vendor/moment/min*
@@ -190,12 +174,6 @@ vendor/signature_pad/*
 vendor/signature_pad/dist/signature_pad.m*
 !vendor/signature_pad/dist/signature_pad.js
 !vendor/signature_pad/package.json
-
-vendor/sinon/*
-!vendor/sinon/pkg
-vendor/sinon/pkg/*.js
-!vendor/sinon/pkg/sinon.js
-!vendor/sinon/LICENSE
 
 vendor/tempusdominus-bootstrap-4/**/*.min.js
 vendor/tempusdominus-bootstrap-4/build/css/*

@@ -6,10 +6,16 @@ Gemfile.lock
 *.log
 
 # KEEP_FILES_BEGIN
+vendor/**/node_modules/*
+
+vendor/.bin/*
+
 vendor/actioncable/*.md
 
 vendor/activestorage/src/*
 vendor/activestorage/*.md
+
+vendor/balanced-match/*
 
 vendor/bootstrap/**/*.js.map
 vendor/bootstrap/**/*.min.js
@@ -35,6 +41,10 @@ vendor/bootswatch-sass/fonts/*
 vendor/bootswatch-sass/.npmignore
 vendor/bootswatch-sass/README.md
 
+vendor/brace-expansion/*
+
+vendor/browser-stdout/*
+
 vendor/chart.js/*
 !vendor/chart.js/dist*
 vendor/chart.js/dist/docs
@@ -50,6 +60,16 @@ vendor/chartkick/*
 !vendor/chartkick/chartkick.js
 !vendor/chartkick/package.json
 !vendor/chartkick/LICENSE.txt
+
+vendor/commander/*
+
+vendor/concat-map/*
+
+vendor/debug/*
+
+vendor/diff/*
+
+vendor/escape-string-regexp/*
 
 vendor/eonasdan-bootstrap-datetimepicker/*
 !vendor/eonasdan-bootstrap-datetimepicker/src*
@@ -67,6 +87,20 @@ vendor/font-awesome-sass/*
 !vendor/font-awesome-sass/assets*
 !vendor/font-awesome-sass/LICENSE.txt
 !vendor/font-awesome-sass/package.json
+
+vendor/fs.realpath/*
+
+vendor/glob/*
+
+vendor/growl/*
+
+vendor/has-flag/*
+
+vendor/he/*
+
+vendor/inflight/*
+
+vendor/inherits/*
 
 vendor/jquery/*
 !vendor/jquery/dist*
@@ -123,6 +157,18 @@ vendor/lodash/*
 !vendor/lodash/package.json
 !vendor/lodash/LICENSE
 
+vendor/minimatch/*
+
+vendor/minimist/*
+
+vendor/mkdirp/*
+
+vendor/mocha/*
+!vendor/mocha/mocha.js
+!vendor/mocha/mocha.css
+!vendor/mocha/package.json
+!vendor/mocha/LICENSE
+
 vendor/moment/*
 !vendor/moment/locale*
 !vendor/moment/min*
@@ -140,6 +186,8 @@ vendor/moment-timezone/builds/*.min.js
 !vendor/moment-timezone/package.json
 !vendor/moment-timezone/LICENSE
 
+vendor/ms/*
+
 vendor/nprogress/*
 !vendor/nprogress/support*
 vendor/nprogress/support/*.css
@@ -148,6 +196,10 @@ vendor/nprogress/support/*.css
 !vendor/nprogress/nprogress.js
 !vendor/nprogress/package.json
 !vendor/nprogress/License.md
+
+vendor/once/*
+
+vendor/path-is-absolute/*
 
 vendor/popper.js/**/*.min.js
 vendor/popper.js/**/*.js.map
@@ -176,10 +228,14 @@ vendor/signature_pad/dist/signature_pad.m*
 
 vendor/spark-md5/*
 
+vendor/supports-color/*
+
 vendor/tempusdominus-bootstrap-4/**/*.min.js
 vendor/tempusdominus-bootstrap-4/build/css/*
 vendor/tempusdominus-bootstrap-4/node_modules/*
 vendor/tempusdominus-bootstrap-4/src/js/*
 vendor/tempusdominus-bootstrap-4/Gruntfile.js
 vendor/tempusdominus-bootstrap-4/*.md
+
+vendor/wrappy/*
 # KEEP_FILES_END

@@ -16,9 +16,9 @@ end
 
 packages = Pathname.new('package.json').readlines
   .map{ |line| line.split(':').first }
-  .reject{ |line| line.strip.empty? || line.match?(/([{}]|"name"|"private"|"dependencies")/) }
-  .map{ |line| line.strip.delete_prefix('"').delete_suffix('"') }
-
+  .map(&:strip)
+  .reject{ |line| line.empty? || line.match?(/([{}]|"name"|"private"|"dependencies")/) }
+  .map{ |line| line.delete_prefix('"').delete_suffix('"') }
 Pathname.new('vendor').children.each do |package|
   name = package.basename.to_s
   next if name == '.yarn-integrity'

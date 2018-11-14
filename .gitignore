@@ -7,8 +7,8 @@ Gemfile.lock
 
 # KEEP_FILES_BEGIN
 vendor/**/node_modules/*
-vendor/.bin/*
-vendor/@babel/*
+vendor/.*
+vendor/@*
 vendor/ab*
 vendor/aco*
 vendor/aj*
@@ -61,12 +61,14 @@ vendor/jsd*
 vendor/jse*
 vendor/jso*
 vendor/jsp*
+vendor/ju*
 vendor/k*
 vendor/lc*
 vendor/le*
 vendor/loa*
 vendor/loc*
-vendor/lodash.sortby/*
+vendor/lodash.*
+vendor/lol*
 vendor/loo*
 vendor/lr*
 vendor/ma*
@@ -75,6 +77,7 @@ vendor/mi*
 vendor/mk*
 vendor/ms*
 vendor/na*
+vendor/ni*
 vendor/no*
 vendor/npm*
 vendor/nu*
@@ -109,7 +112,7 @@ vendor/st*
 vendor/su*
 vendor/sy*
 vendor/tes*
-vendor/tes*
+vendor/tex*
 vendor/th*
 vendor/tm*
 vendor/to*
@@ -305,6 +308,12 @@ vendor/signature_pad/*
 vendor/signature_pad/dist/signature_pad.m*
 !vendor/signature_pad/dist/signature_pad.js
 !vendor/signature_pad/package.json
+
+vendor/sinon/*
+!vendor/sinon/pkg
+vendor/sinon/pkg/*.js
+!vendor/sinon/pkg/sinon.js
+!vendor/sinon/LICENSE
 
 vendor/tempusdominus-bootstrap-4/**/*.min.js
 vendor/tempusdominus-bootstrap-4/build/css/*

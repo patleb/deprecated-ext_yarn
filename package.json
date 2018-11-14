@@ -33,6 +33,7 @@
     "rails-ujs": "^5.2.1",
     "roboto-fontface": "^0.8.0",
     "signature_pad": "^2.3.2",
+    "sinon": "^7.1.1",
     "tempusdominus-bootstrap-4": "^5.1.2"
   }
 }

@@ -26,6 +26,7 @@ vendor/bu*
 vendor/ca*
 vendor/chalk/*
 vendor/chartjs*
+vendor/che*
 vendor/ci*
 vendor/cl*
 vendor/co*
@@ -153,6 +154,10 @@ vendor/bootswatch-sass/**/*.png
 vendor/bootswatch-sass/fonts/*
 vendor/bootswatch-sass/.npmignore
 vendor/bootswatch-sass/README.md
+
+vendor/chai/*
+!vendor/chai/chai.js
+!vendor/chai/LICENSE
 
 vendor/chart.js/*
 !vendor/chart.js/dist*

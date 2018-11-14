@@ -9,6 +9,7 @@
     "bootstrap-sass": "^3.3.7",
     "bootswatch": "^4.1.3",
     "bootswatch-sass": "./vendor/bootswatch-sass",
+    "chai": "^4.2.0",
     "chart.js": "^2.7.2",
     "chartkick": "ankane/chartkick.js",
     "eonasdan-bootstrap-datetimepicker": "^4.17.47",

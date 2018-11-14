@@ -159,6 +159,10 @@ vendor/chai/*
 !vendor/chai/chai.js
 !vendor/chai/LICENSE
 
+vendor/chai-jq/*
+!vendor/chai-jq/chai-jq.js
+!vendor/chai-jq/LICENSE.txt
+
 vendor/chart.js/*
 !vendor/chart.js/dist*
 vendor/chart.js/dist/docs

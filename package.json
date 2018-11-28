@@ -4,13 +4,10 @@
   "dependencies": {
     "actioncable": "^5.2.1",
     "activestorage": "^5.2.1",
-    "bdd-lazy-var": "^2.5.0",
     "bootstrap": "^4.1.3",
     "bootstrap-sass": "^3.3.7",
     "bootswatch": "^4.1.3",
     "bootswatch-sass": "./vendor/bootswatch-sass",
-    "chai": "^4.2.0",
-    "chai-jq": "^0.0.9",
     "chart.js": "^2.7.2",
     "chartkick": "ankane/chartkick.js",
     "eonasdan-bootstrap-datetimepicker": "^4.17.47",
@@ -19,13 +16,13 @@
     "jquery": "^3.2.1",
     "jquery-pjax": "defunkt/jquery-pjax",
     "jquery-ui": "^1.12.1",
+    "jquery-ui-touch-punch-zoom-fork": "Kocik/jquery-ui-touch-punch-zoom-fork",
     "jquery-ujs": "rails/jquery-ujs",
     "jquery.iframe-transport": "cmlenz/jquery-iframe-transport",
     "js-cookie": "^2.2.0",
     "jstz": "^2.0.0",
     "lazysizes": "^4.1.4",
     "lodash": "^4.17.4",
-    "mocha": "^5.2.0",
     "moment": "^2.19.1",
     "moment-timezone": "^0.5.14",
     "nprogress": "rstacruz/nprogress",
@@ -33,7 +30,6 @@
     "rails-ujs": "^5.2.1",
     "roboto-fontface": "^0.8.0",
     "signature_pad": "^2.3.2",
-    "sinon": "^7.1.1",
     "tempusdominus-bootstrap-4": "^5.1.2"
   }
 }

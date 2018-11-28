@@ -8,6 +8,8 @@ Gemfile.lock
 # KEEP_FILES_BEGIN
 vendor/**/node_modules/*
 vendor/**/.bin/*
+vendor/**/*.min.js
+vendor/**/README.md
 
 vendor/actioncable/*.md
 
@@ -89,6 +91,8 @@ vendor/jquery-ui/*
 vendor/jquery-ui/ui/.jshintrc
 !vendor/jquery-ui/package.json
 !vendor/jquery-ui/LICENSE.txt
+
+vendor/jquery-ui-touch-punch-zoom-fork/testcase/*
 
 vendor/jquery-ujs/*
 !vendor/jquery-ujs/src*

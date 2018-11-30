@@ -8,51 +8,52 @@ Gemfile.lock
 # KEEP_FILES_BEGIN
 vendor/**/node_modules/*
 vendor/**/.bin/*
+vendor/**/.github/*
+vendor/**/esm/*
+vendor/**/*.esm.*
+vendor/**/*.min.*
+vendor/**/*.ts
 vendor/**/*.min.js
+vendor/**/*.m.js
+vendor/**/*.mjs
+vendor/**/*.umd.js
+vendor/**/*.js.map
+vendor/**/*.ts
+vendor/**/*.js.flow
+vendor/**/*.less
+vendor/**/*.xml
+vendor/**/*.png
+vendor/**/*.gemspec
+vendor/**/.npmignore
+vendor/**/CHANGELOG.md
 vendor/**/README.md
-
-vendor/actioncable/*.md
+vendor/**/README.rdoc
+vendor/**/Gruntfile.js
+vendor/**/.jshintrc
 
 vendor/activestorage/src/*
-vendor/activestorage/*.md
 
-vendor/bootstrap/**/*.js.map
-vendor/bootstrap/**/*.min.js
 vendor/bootstrap/dist/css/*
 vendor/bootstrap/js/src/*
 vendor/bootstrap/*.md
 
 vendor/bootstrap-sass/assets/fonts/*
 vendor/bootstrap-sass/assets/images/*
-vendor/bootstrap-sass/assets/**/*.min.js
 vendor/bootstrap-sass/*.js
-vendor/bootstrap-sass/*.md
 
-vendor/bootswatch/.github/*
 vendor/bootswatch/**/*.css
-vendor/bootswatch/*.gemspec
 vendor/bootswatch/*.md
 
 vendor/bootswatch-sass/**/*.css
-vendor/bootswatch-sass/**/*.less
-vendor/bootswatch-sass/**/*.png
 vendor/bootswatch-sass/fonts/*
-vendor/bootswatch-sass/.npmignore
-vendor/bootswatch-sass/README.md
 
 vendor/chart.js/*
 !vendor/chart.js/dist*
 vendor/chart.js/dist/docs
-vendor/chart.js/dist/*.min.js
 !vendor/chart.js/dist/Chart.bundle.js
 !vendor/chart.js/dist/Chart.js
 !vendor/chart.js/package.json
 !vendor/chart.js/LICENSE.md
-
-vendor/chartkick/*
-!vendor/chartkick/chartkick.js
-!vendor/chartkick/package.json
-!vendor/chartkick/LICENSE.txt
 
 vendor/eonasdan-bootstrap-datetimepicker/*
 !vendor/eonasdan-bootstrap-datetimepicker/src*
@@ -61,10 +62,7 @@ vendor/eonasdan-bootstrap-datetimepicker/src/nuget*
 !vendor/eonasdan-bootstrap-datetimepicker/package.json
 !vendor/eonasdan-bootstrap-datetimepicker/LICENSE
 
-vendor/file-saver/*
-!vendor/file-saver/FileSaver.js
-!vendor/file-saver/package.json
-!vendor/file-saver/LICENSE.md
+vendor/file-saver/src/*
 
 vendor/font-awesome-sass/*
 !vendor/font-awesome-sass/assets*
@@ -74,7 +72,6 @@ vendor/font-awesome-sass/*
 vendor/jquery/*
 !vendor/jquery/dist*
 vendor/jquery/dist/core.js
-vendor/jquery/dist/*.min.*
 !vendor/jquery/dist/jquery.js
 !vendor/jquery/dist/jquery.slim.js
 !vendor/jquery/package.json
@@ -88,7 +85,6 @@ vendor/jquery-pjax/*
 vendor/jquery-ui/*
 !vendor/jquery-ui/themes*
 !vendor/jquery-ui/ui*
-vendor/jquery-ui/ui/.jshintrc
 !vendor/jquery-ui/package.json
 !vendor/jquery-ui/LICENSE.txt
 
@@ -112,14 +108,9 @@ vendor/js-cookie/*
 
 vendor/jstz/*
 !vendor/jstz/dist*
-vendor/jstz/dist/*.ts
-vendor/jstz/dist/*.min.*
 !vendor/jstz/package.json
 !vendor/jstz/LICENCE
 
-vendor/lazysizes/**/*.min.*
-vendor/lazysizes/**/*.md
-vendor/lazysizes/*.xml
 vendor/lazysizes/src/*
 
 vendor/lodash/*
@@ -131,7 +122,6 @@ vendor/lodash/*
 vendor/moment/*
 !vendor/moment/locale*
 !vendor/moment/min*
-vendor/moment/min/*.min.js
 !vendor/moment/min/locales.js
 !vendor/moment/min/moment-with-locales.js
 !vendor/moment/moment.js
@@ -140,7 +130,6 @@ vendor/moment/min/*.min.js
 
 vendor/moment-timezone/*
 !vendor/moment-timezone/builds*
-vendor/moment-timezone/builds/*.min.js
 !vendor/moment-timezone/moment-*.js
 !vendor/moment-timezone/package.json
 !vendor/moment-timezone/LICENSE
@@ -154,35 +143,20 @@ vendor/nprogress/support/*.css
 !vendor/nprogress/package.json
 !vendor/nprogress/License.md
 
-vendor/popper.js/**/*.min.js
-vendor/popper.js/**/*.js.map
-vendor/popper.js/**/*.ts
-vendor/popper.js/**/*.js.flow
-vendor/popper.js/dist/esm/*
 vendor/popper.js/dist/*.js
-vendor/popper.js/*.md
-
-vendor/rails-ujs/*.md
-vendor/rails-ujs/README.rdoc
 
 vendor/roboto-fontface/*
 !vendor/roboto-fontface/css*
 vendor/roboto-fontface/css/**/*.css
-vendor/roboto-fontface/css/**/*.less
 !vendor/roboto-fontface/fonts*
 !vendor/roboto-fontface/package.json
 !vendor/roboto-fontface/LICENSE
 
 vendor/signature_pad/*
 !vendor/signature_pad/dist*
-vendor/signature_pad/dist/signature_pad.m*
 !vendor/signature_pad/dist/signature_pad.js
 !vendor/signature_pad/package.json
 
-vendor/tempusdominus-bootstrap-4/**/*.min.js
 vendor/tempusdominus-bootstrap-4/build/css/*
-vendor/tempusdominus-bootstrap-4/node_modules/*
 vendor/tempusdominus-bootstrap-4/src/js/*
-vendor/tempusdominus-bootstrap-4/Gruntfile.js
-vendor/tempusdominus-bootstrap-4/*.md
 # KEEP_FILES_END

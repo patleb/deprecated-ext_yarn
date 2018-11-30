@@ -9,16 +9,28 @@ $roboto-font-path: 'roboto-fontface/fonts' !default;
     // PATCH_BEGIN
     @font-face {
         font-family: '#{$variant}';
-        src: font-url('#{$font-full-path}-#{$type}.woff2') format('woff2'),
-             font-url('#{$font-full-path}-#{$type}.woff') format('woff');
+        src: font-url('#{$font-full-path}-#{$type}.eot');
+        src: local('#{$variant} #{$type}'),
+             local('#{$variant}-#{$type}'),
+             font-url('#{$font-full-path}-#{$type}.eot?#iefix') format('embedded-opentype'),
+             font-url('#{$font-full-path}-#{$type}.woff2') format('woff2'),
+             font-url('#{$font-full-path}-#{$type}.woff') format('woff'),
+             font-url('#{$font-full-path}-#{$type}.ttf') format('truetype'),
+             font-url('#{$font-full-path}-#{$type}.svg##{$variant}') format('svg');
         font-weight: $weight;
         font-style: $style;
     }
 
     @font-face {
         font-family: '#{$variant}-#{$type}';
-        src: font-url('#{$font-full-path}-#{$type}.woff2') format('woff2'),
-             font-url('#{$font-full-path}-#{$type}.woff') format('woff');
+        src: font-url('#{$font-full-path}-#{$type}.eot');
+        src: local('#{$variant} #{$type}'),
+             local('#{$variant}-#{$type}'),
+             font-url('#{$font-full-path}-#{$type}.eot?#iefix') format('embedded-opentype'),
+             font-url('#{$font-full-path}-#{$type}.woff2') format('woff2'),
+             font-url('#{$font-full-path}-#{$type}.woff') format('woff'),
+             font-url('#{$font-full-path}-#{$type}.ttf') format('truetype'),
+             font-url('#{$font-full-path}-#{$type}.svg##{$variant}') format('svg');
     }
     // PATCH_END
 }

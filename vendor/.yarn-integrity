@@ -29,7 +29,7 @@
     "moment@^2.22.2",
     "nprogress@rstacruz/nprogress",
     "rails-ujs@^5.2.1",
-    "roboto-fontface@^0.10.0",
+    "roboto-fontface@^0.8.0",
     "signature_pad@^2.3"
   ],
   "lockfileEntries": {
@@ -67,7 +67,7 @@
     "moment@^2.22.2": "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66",
     "nprogress@rstacruz/nprogress": "https://codeload.github.com/rstacruz/nprogress/tar.gz/a0ab16ccdaca501d8d9881a4da1d691f4e6c4dda",
     "rails-ujs@^5.2.1": "https://registry.yarnpkg.com/rails-ujs/-/rails-ujs-5.2.1.tgz#2869c6d54fdfefac3aaa257f4efe211d8f5a7169",
-    "roboto-fontface@^0.10.0": "https://registry.yarnpkg.com/roboto-fontface/-/roboto-fontface-0.10.0.tgz#7eee40cfa18b1f7e4e605eaf1a2740afb6fd71b0",
+    "roboto-fontface@^0.8.0": "https://registry.yarnpkg.com/roboto-fontface/-/roboto-fontface-0.8.0.tgz#031a83c8f79932801a57d83bf743f37250163499",
     "signature_pad@^2.3": "https://registry.yarnpkg.com/signature_pad/-/signature_pad-2.3.2.tgz#ca7230021c89cedeead27b33d8d16ff254e5f04a",
     "spark-md5@^3.0.0": "https://registry.yarnpkg.com/spark-md5/-/spark-md5-3.0.0.tgz#3722227c54e2faf24b1dc6d933cc144e6f71bfef"
   },

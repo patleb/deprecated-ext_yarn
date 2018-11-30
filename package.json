@@ -25,7 +25,7 @@
     "moment-timezone": "^0.5.23",
     "nprogress": "rstacruz/nprogress",
     "rails-ujs": "^5.2.1",
-    "roboto-fontface": "^0.10.0",
+    "roboto-fontface": "^0.8.0",
     "signature_pad": "^2.3"
   }
 }

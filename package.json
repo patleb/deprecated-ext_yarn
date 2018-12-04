@@ -13,6 +13,7 @@
     "font-awesome-sass": "^4.7.0",
     "jquery": "^3.3.1",
     "jquery-pjax": "defunkt/jquery-pjax",
+    "jquery-touch-events": "benmajor/jQuery-Touch-Events",
     "jquery-ui": "^1.12.1",
     "jquery-ui-touch-punch-zoom-fork": "Kocik/jquery-ui-touch-punch-zoom-fork",
     "jquery-ujs": "rails/jquery-ujs",
@@ -24,6 +25,7 @@
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.23",
     "nprogress": "rstacruz/nprogress",
+    "pako": "^1.0.7",
     "rails-ujs": "^5.2.1",
     "roboto-fontface": "^0.8.0",
     "signature_pad": "^2.3"

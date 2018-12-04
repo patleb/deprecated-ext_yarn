@@ -82,6 +82,10 @@ vendor/jquery-pjax/*
 !vendor/jquery-pjax/package.json
 !vendor/jquery-pjax/LICENSE
 
+vendor/jquery-touch-events/bower.json
+vendor/jquery-touch-events/src/1.0*
+vendor/jquery-touch-events/src/2.0*
+
 vendor/jquery-ui/*
 !vendor/jquery-ui/themes*
 !vendor/jquery-ui/ui*
@@ -142,6 +146,9 @@ vendor/nprogress/support/*.css
 !vendor/nprogress/nprogress.js
 !vendor/nprogress/package.json
 !vendor/nprogress/License.md
+
+vendor/pako/lib/*
+vendor/pako/index.js
 
 vendor/popper.js/dist/*.js
 

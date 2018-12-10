@@ -93,9 +93,10 @@ jquery-touch-events@benmajor/jQuery-Touch-Events:
   version "2.0.0"
   resolved "https://codeload.github.com/benmajor/jQuery-Touch-Events/tar.gz/05c3931d207069e324aaf908ca87f12257310392"
 
-jquery-ui-touch-punch-zoom-fork@Kocik/jquery-ui-touch-punch-zoom-fork:
-  version "0.0.0"
-  resolved "https://codeload.github.com/Kocik/jquery-ui-touch-punch-zoom-fork/tar.gz/ce01648d495f732a01519b1e4304f754be31f322"
+jquery-ui-touch-punch@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/jquery-ui-touch-punch/-/jquery-ui-touch-punch-0.2.3.tgz#eed82242733ba243f46b3e87c1841b308191da68"
+  integrity sha1-7tgiQnM7okP0az6HwYQbMIGR2mg=
 
 jquery-ui@^1.12.1:
   version "1.12.1"

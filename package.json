@@ -15,7 +15,7 @@
     "jquery-pjax": "defunkt/jquery-pjax",
     "jquery-touch-events": "benmajor/jQuery-Touch-Events",
     "jquery-ui": "^1.12.1",
-    "jquery-ui-touch-punch-zoom-fork": "Kocik/jquery-ui-touch-punch-zoom-fork",
+    "jquery-ui-touch-punch": "^0.2.3",
     "jquery-ujs": "rails/jquery-ujs",
     "jquery.iframe-transport": "cmlenz/jquery-iframe-transport",
     "js-cookie": "^2.2.0",

@@ -3,14 +3,14 @@
 
 
 actioncable@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/actioncable/-/actioncable-5.2.1.tgz#615428a8a302cec55117d9049f0fd7952011c962"
-  integrity sha512-z/YnsgKYUC0E28Pr8YGaq8sZXNQLTZNa8PAJGmqj5qODiGHTyaCVy/DkP1+xpJtAX/UaHSGHobIemoDY/x5SbQ==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/actioncable/-/actioncable-5.2.2.tgz#0ec83195fd363c4d91a2fc19f78e77350aa5caac"
+  integrity sha512-uZveOQ0OL1z8VwYqA84gMMfLMPHpS/GsnodS8oVh1xTUYeMf1L80gAbTVVVVVj84zUf7lOiIZMaiY0IlXNsgiw==
 
 activestorage@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/activestorage/-/activestorage-5.2.1.tgz#b4be57fbedc25c6c361802707fc5e8884766f6a1"
-  integrity sha512-n3LcwiC3EV5zkVAvay5yprXTBb8vzT2Qef1GCfC8feJTVWEadzNW9zYaOweDpshqzJHx+zdaps6uiHDJQbdCdA==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/activestorage/-/activestorage-5.2.2.tgz#035c03f247467c13cd659584833502433099f8f4"
+  integrity sha512-mFNTTU21Xf67RhYuBB90uPXKlafPtwy8cxXsKny9roKvkluZkLz6ih3s6VkjK+4cL8+aIGVV39RVIzmy1cfxqw==
   dependencies:
     spark-md5 "^3.0.0"
 
@@ -165,9 +165,9 @@ pako@^1.0.7:
   integrity sha512-3HNK5tW4x8o5mO8RuHZp3Ydw9icZXx0RANAOMzlMzx7LVXhMJ4mo3MOBpzyd7r/+RUu8BmndP47LXT+vzjtWcQ==
 
 rails-ujs@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/rails-ujs/-/rails-ujs-5.2.1.tgz#2869c6d54fdfefac3aaa257f4efe211d8f5a7169"
-  integrity sha512-kOsSdmBATcilfMzBCYgbefQ+5eUG6BAr9rDy+GC09Cvqx0017XBVp1Xu/Ksvwr6r7fHzgNkEUpKnQoOflpNz+A==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/rails-ujs/-/rails-ujs-5.2.2.tgz#ab01dd087a323975637b50e93e7afcc0f9068568"
+  integrity sha512-tJl7MdysGrQEKmwF7BJkz5XwUOkdnI9E7SvSbT39yO7pdFc96D4hWKm6Sb15pU4n5mt4rLPb/6kkyTQujP1k7Q==
 
 roboto-fontface@^0.8.0:
   version "0.8.0"

@@ -633,7 +633,10 @@ Released under the MIT license
 
       fire = Rails.fire, delegate = Rails.delegate, getData = Rails.getData, $ = Rails.$, refreshCSRFTokens = Rails.refreshCSRFTokens, CSRFProtection = Rails.CSRFProtection, enableElement = Rails.enableElement, disableElement = Rails.disableElement, handleDisabledElement = Rails.handleDisabledElement, handleConfirm = Rails.handleConfirm, handleRemote = Rails.handleRemote, formSubmitButtonClick = Rails.formSubmitButtonClick, handleMetaClick = Rails.handleMetaClick, handleMethod = Rails.handleMethod;
 
-      if ((typeof jQuery !== "undefined" && jQuery !== null) && (jQuery.ajax != null) && !jQuery.rails) {
+      if ((typeof jQuery !== "undefined" && jQuery !== null) && (jQuery.ajax != null)) {
+        if (jQuery.rails) {
+          throw new Error('If you load both jquery_ujs and rails-ujs, use rails-ujs only.');
+        }
         jQuery.rails = Rails;
         jQuery.ajaxPrefilter(function(options, originalOptions, xhr) {
           if (!options.crossDomain) {

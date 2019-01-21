@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+# TODO check for PATCH_(BEGIN|END) markers within KEEP_FILES_(BEGIN|END)
 require 'pathname'
 
 files = `git status`.split("\n")

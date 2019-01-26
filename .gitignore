@@ -26,8 +26,6 @@ vendor/**/*.png
 vendor/**/*.gemspec
 vendor/**/.npmignore
 vendor/**/CHANGELOG.md
-vendor/**/README.md
-vendor/**/README.rdoc
 vendor/**/Gruntfile.js
 vendor/**/.jshintrc
 
@@ -40,6 +38,7 @@ vendor/bootstrap/*.md
 vendor/bootstrap-sass/assets/fonts/*
 vendor/bootstrap-sass/assets/images/*
 vendor/bootstrap-sass/*.js
+vendor/bootstrap-sass/README.md
 
 vendor/bootswatch/**/*.css
 vendor/bootswatch/*.md
@@ -55,6 +54,8 @@ vendor/chart.js/dist/docs
 !vendor/chart.js/package.json
 !vendor/chart.js/LICENSE.md
 
+vendor/chartkick/README.md
+
 vendor/eonasdan-bootstrap-datetimepicker/*
 !vendor/eonasdan-bootstrap-datetimepicker/src*
 vendor/eonasdan-bootstrap-datetimepicker/src/less*
@@ -63,6 +64,7 @@ vendor/eonasdan-bootstrap-datetimepicker/src/nuget*
 !vendor/eonasdan-bootstrap-datetimepicker/LICENSE
 
 vendor/file-saver/src/*
+vendor/file-saver/README.md
 
 vendor/font-awesome-sass/*
 !vendor/font-awesome-sass/assets*
@@ -85,6 +87,7 @@ vendor/jquery-pjax/*
 vendor/jquery-touch-events/bower.json
 vendor/jquery-touch-events/src/1.0*
 vendor/jquery-touch-events/src/2.0*
+vendor/jquery-touch-events/README.md
 
 vendor/jquery-ui/*
 !vendor/jquery-ui/themes*
@@ -116,6 +119,7 @@ vendor/jstz/*
 !vendor/jstz/LICENCE
 
 vendor/lazysizes/src/*
+vendor/lazysizes/**/README.md
 
 vendor/lodash/*
 !vendor/lodash/core.js
@@ -149,6 +153,7 @@ vendor/nprogress/support/*.css
 
 vendor/pako/lib/*
 vendor/pako/index.js
+vendor/pako/README.md
 
 vendor/popper.js/dist/*.js
 

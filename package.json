@@ -1,7 +1,20 @@
 {
   "name": "ext_yarn",
-  "private": true,
+  "version": "0.6.0",
+  "description": "ExtYarn",
+  "author": "patleb",
+  "homepage": "https://github.com/patleb/ext_yarn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patleb/ext_yarn.git"
+  },
+  "files": [
+    "vendor"
+  ],
   "dependencies": {
+  },
+  "devDependencies": {
     "actioncable": "^5.2.1",
     "activestorage": "^5.2.1",
     "bootstrap-sass": "^3.3.7",

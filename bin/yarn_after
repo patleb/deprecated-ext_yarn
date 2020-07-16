@@ -18,7 +18,7 @@ end
 packages = Pathname.new('package.json').readlines
   .map{ |line| line.split(':').first }
   .map(&:strip)
-  .reject{ |line| line.empty? || line.match?(/([{}]|"name"|"private"|"dependencies")/) }
+  .reject{ |line| line.empty? || line.match?(/([{}]|"(name|private|version|author|homepage|license|repository|type|url|files|vendor|dependencies|devDependencies)")/) }
   .map{ |line| line.delete_prefix('"').delete_suffix('"') }
 Pathname.new('vendor').children.each do |package|
   name = package.basename.to_s

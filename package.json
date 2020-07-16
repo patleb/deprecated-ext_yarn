@@ -17,7 +17,7 @@
   "devDependencies": {
     "actioncable": "^5.2.1",
     "activestorage": "^5.2.1",
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap-sass": "^3.4.1",
     "bootswatch-sass": "file:vendor/bootswatch-sass",
     "chart.js": "^2.7.3",
     "chartkick": "^3.0",

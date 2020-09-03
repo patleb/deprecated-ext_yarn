@@ -34,7 +34,7 @@
     "jquery.iframe-transport": "cmlenz/jquery-iframe-transport",
     "js-cookie": "^2.2.0",
     "jstz": "^2.1.1",
-    "lazysizes": "^4.1.4",
+    "lazysizes": "^5.2.1",
     "lodash": "^4.17.4",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.23",

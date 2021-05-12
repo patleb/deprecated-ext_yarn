@@ -19,7 +19,7 @@
     "activestorage": "^5.2.1",
     "bootstrap-sass": "^3.3.7",
     "bootswatch-sass": "file:vendor/bootswatch-sass",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "chartkick": "^3.0",
     "eonasdan-bootstrap-datetimepicker": "^4.17.47",
     "file-saver": "^2.0.0",
